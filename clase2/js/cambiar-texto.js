@@ -1,0 +1,9 @@
+// Ubicamos el párrafo con él id="frase"
+const frase = document.querySelector('#frase')
+
+const espanol = 'Cuando yo tenía seis años vi en un libro sobre la selva virgen que se titulaba "Historias vividas", una magnífica lámina. Representaba una serpiente boa que se tragaba a una fiera. En el libro se afirmaba: "La serpiente boa se traga su presa entera, sin masticarla. Luego ya no puede moverse y duerme durante los seis meses que dura su digestión". Reflexioné mucho en ese momento sobre las aventuras de la jungla y a mi vez logré trazar con un lápiz de colores mi primer dibujo.';
+const frances = 'A l\'âge de six ans, j\'ai vu une magnifique image dans un livre sur la forêt vierge intitulé « Histoires vivantes ». Elle représentait un serpent boa avalant une bête. Le livre disait : « Le serpent boa avale sa proie en entier, sans la mâcher. Ensuite, il ne peut plus bouger et dort pendant les six mois nécessaires à sa digestion ». À cette époque, je pensais beaucoup aux aventures de la jungle et, à mon tour, j\'ai réussi à faire mon premier dessin avec un crayon de couleur.';
+const ingles = 'When I was six years old, I saw a magnificent picture in a book about the virgin forest entitled ‘Living Stories’. It depicted a boa snake swallowing a beast. The book stated: ‘The boa snake swallows its prey whole, without chewing it. Then it can no longer move and sleeps for the six months it takes to digest it’. At that time I thought a lot about the adventures of the jungle and in my turn I managed to draw my first drawing with a coloured pencil.';
+
+// Escribimos el texto inicial dentro del párrafo
+frase.innerText = espanol
