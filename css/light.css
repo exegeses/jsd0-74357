@@ -9,8 +9,8 @@
 body{
     width: 640px;
     margin: 40px auto;
-    background-color: hsl(300, 60%, 10%);
-    color: hsl(300, 60%, 70%);
+    background-color: hsl(300, 60%, 70%);
+    color: hsl(300, 60%, 10%);
     font-family: Figtree;
     font-size: 2em;
 }
