@@ -5,7 +5,20 @@
 
 const link = document.querySelector('#link')
 
+// tema inicial
+let tema = 'dark'
+
 function cambiar()
 {
-    link.href = '../css/light.css'
+
+    if( tema == 'dark' ){
+        link.href = '../css/light.css'
+        tema = 'light'
+    }else{
+        link.href = '../css/estilos.css'
+        tema = 'dark'
+    }
+    
 }
+
+

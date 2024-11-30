@@ -14,3 +14,40 @@ function mostrar()
     // caja.style.opacity = '1'
     caja.style.display = 'block'
 }
+
+// propuesta Romeo
+function mostrarocultar() {
+    caja.style.display = (caja.style.display === 'none') ? 'block' : 'none';
+  }
+
+// propuesta Ale
+function alternar()
+{
+    if(caja.style.display == 'none')
+    {
+        caja.style.display = 'block'
+    }
+    else
+    {
+        caja.style.display = 'none'
+    }
+}  
+
+//variante A
+function showHide()
+{
+    if(caja.style.display == 'none')
+        {
+            mostrar()
+        }
+        else
+        {
+            ocultar()
+        }
+}
+
+// variante B
+function showHide2()
+{
+    ( caja.style.display == 'none' ) ? mostrar() : ocultar()
+}
