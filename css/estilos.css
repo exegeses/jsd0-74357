@@ -53,3 +53,28 @@ nav{
     color: #313131;
     transition: 500ms;
 }
+
+#rotador{
+    margin-top: 40px;
+    width: 640px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    #rotador span{
+        width: 450px;
+        background-color: hsl(300, 60%, 4%);
+        padding: 12px 24px;
+        border-radius: 8px;
+        display: block;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    #rotador img{
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #rotador img:hover{
+        transform: scale(1.35);
+    }
